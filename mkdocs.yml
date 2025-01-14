@@ -1,0 +1,41 @@
+docs_dir: docs
+extra_css:
+- stylesheets/extra.css
+- https://unpkg.com/leaflet@1.7.1/dist/leaflet.css
+extra_javascript:
+- javascript/map.js
+- https://unpkg.com/leaflet@1.7.1/dist/leaflet.js
+markdown_extensions:
+- pymdownx.superfences
+- pymdownx.details
+- pymdownx.emoji
+- pymdownx.tasklist
+- pymdownx.magiclink
+- attr_list
+- pymdownx.tilde
+- pymdownx.caret
+- abbr
+nav:
+- Parcels:
+  - R1001001: parcels/R1001001.md
+  - R1001025A: parcels/R1001025A.md
+  - R1001026: parcels/R1001026.md
+  - R1001045: parcels/R1001045.md
+  - R1001069: parcels/R1001069.md
+  - R1001069: parcels/R1001069.md
+  - R1001069: parcels/R1001069.md
+  - R1001069: parcels/R1001069.md
+  - R1001115: parcels/R1001115.md
+  - R1001115: parcels/R1001115.md
+plugins:
+- search
+- glightbox
+- minify:
+    minify_html: true
+site_description: Gwinnett Parcels
+site_name: Gwinnett Parcels
+theme:
+  name: material
+  palette:
+    accent: custom
+    primary: custom
