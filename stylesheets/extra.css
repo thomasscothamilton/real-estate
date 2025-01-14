@@ -1,0 +1,14 @@
+:root {
+    --md-primary-fg-color: #123456; /* Replace with your primary color */
+    --md-accent-fg-color: #654321;  /* Replace with your accent color */
+  }
+
+  .md-content img {
+    border: 1px solid #000; /* Adjust color and width as needed */
+  }
+  
+  .md-content table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+  }
