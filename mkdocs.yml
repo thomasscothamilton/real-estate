@@ -16,6 +16,7 @@ markdown_extensions:
 - pymdownx.caret
 - abbr
 nav:
+- Home: index.md
 - Parcels:
   - R1001001: parcels/R1001001.md
   - R1001025A: parcels/R1001025A.md
